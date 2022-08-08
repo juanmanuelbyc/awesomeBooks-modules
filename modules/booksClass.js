@@ -1,5 +1,4 @@
-import {title,author,container} from './htmlNodes.js';
-
+import { title, author, container } from './htmlNodes.js';
 export default class Books {
   books;
 
