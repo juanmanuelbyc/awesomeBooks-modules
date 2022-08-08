@@ -1,0 +1,81 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h2 class="title">Awesome Books</h2>
+        <nav>
+          <ul class="nav-bar">
+            <li class="nav-item list">List</li>
+            <li>|</li>
+            <li class="nav-item add">Add New</li>
+            <li>|</li>
+            <li class="nav-item contact">Contact</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="date">try</div>
+    </header>
+    <main>
+      <section class="container book-list">
+        <h2 class="listTitle">All awesome Books</h2>
+        <div class="data-container"></div>
+      </section>
+      <section class="container add-new hidden">
+        <h2>Add a new book</h2>
+        <form class="form">
+          <div>
+            <input
+              class="field"
+              type="text"
+              name="title"
+              id="title"
+              placeholder="Title"
+            />
+          </div>
+          <br />
+          <div>
+            <input
+              class="field"
+              type="text"
+              name="author"
+              id="author"
+              placeholder="Author"
+            />
+          </div>
+          <br />
+          <input class="btn" id="submit" type="submit" value="Add" />
+        </form>
+      </section>
+      <section class="container contacts hidden">
+        <h2>Contact Information</h2>
+        <div>
+          <p>Do you have any questions or you just want to say "Hello"?</p>
+          <p>You can reach out to us!</p>
+        </div>
+        <ul>
+          <li>
+            email:
+            <a href="mailto:mail@gmail.com">mail@gmail.com</a>
+          </li>
+          <li>phone number: <a href="tel:+17865560028">+17865560028</a></li>
+          <li>Address: 19201 collins ave, sunny isles beach, Florida 33160</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">Copyright ...</footer>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="./modules/booksClass.js"></script>
+    <script type="module" src="./modules/htmlNodes.js"></script>
+    <script type="module" src="./modules/addEventListeners.js"></script>
+  </body>
+</html>
