@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/juanmanuelbyc/awesomeBooks-modules/issues"
   },
-  "homepage": "https://github.com/juanmanuelbyc/awesomeBooks-modules#readme"
+  "homepage": "https://github.com/juanmanuelbyc/awesomeBooks-modules#readme",
+  "dependencies": {
+    "luxon": "^3.0.1"
+  }
 }
