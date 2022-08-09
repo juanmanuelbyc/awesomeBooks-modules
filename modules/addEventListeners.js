@@ -1,5 +1,5 @@
 import {
-  submit, container, bookList, addContainer, contactContainer, list, addNew, contact 
+  submit, container, bookList, addContainer, contactContainer, list, addNew, contact,
 } from './htmlNodes.js';
 import Books from './booksClass.js';
 
