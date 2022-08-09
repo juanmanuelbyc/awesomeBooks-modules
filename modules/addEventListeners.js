@@ -1,5 +1,5 @@
 import { submit, container, bookList, addContainer, contactContainer, list, addNew, contact } from './htmlNodes.js';
-import { book } from '../index.js';
+import { book } from './booksClass.js';
 
 function addListeners() {
   document.addEventListener('DOMContentLoaded', () => {
@@ -34,4 +34,4 @@ function addListeners() {
   });
 }
 
-export default addListeners;
+export { addListeners };
