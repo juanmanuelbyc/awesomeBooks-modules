@@ -11,9 +11,9 @@ const contact = document.querySelector('.contact');
 const dateTime = document.querySelector('.date');
 
 export {
- title, author, submit, container, bookList
+  title, author, submit, container, bookList,
 };
 
 export {
- addContainer, contactContainer, list, addNew, contact, dateTime
+  addContainer, contactContainer, list, addNew, contact, dateTime,
 };
