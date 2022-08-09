@@ -1,5 +1,5 @@
 import { title, author, container } from './htmlNodes.js';
-class Books {
+export default class Books {
   books;
 
   constructor() {
@@ -46,5 +46,3 @@ class Books {
     author.value = '';
   };
 }
-
-export var book = new Books();

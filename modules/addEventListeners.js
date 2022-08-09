@@ -1,10 +1,14 @@
-import { submit, container, bookList, addContainer, contactContainer, list, addNew, contact } from './htmlNodes.js';
-import { book } from './booksClass.js';
+import {
+  submit, container, bookList, addContainer, contactContainer, list, addNew, contact 
+} from './htmlNodes.js';
+import Books from './booksClass.js';
 
-function addListeners() {
+const book = new Books();
+
+export default function addListeners() {
   document.addEventListener('DOMContentLoaded', () => {
     book.displayBooks();
-});
+  });
 
   submit.addEventListener('click', book.addBook);
 
@@ -33,5 +37,3 @@ function addListeners() {
     contactContainer.classList.remove('hidden');
   });
 }
-
-export { addListeners };

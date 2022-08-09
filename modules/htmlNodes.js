@@ -10,4 +10,6 @@ const addNew = document.querySelector('.add');
 const contact = document.querySelector('.contact');
 const dateTime = document.querySelector('.date');
 
-export { title, author, submit, container, bookList, addContainer, contactContainer, list, addNew, contact, dateTime };
+export {
+  title, author, submit, container, bookList, addContainer, contactContainer, list, addNew, contact, dateTime
+};
